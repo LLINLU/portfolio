@@ -7,11 +7,17 @@
   display:flex;
   justify-content:center;
   align-items:center;
+  transition: opacity 4s ease;
+}
+
+.preload-finish {
+  opacity:0;
+  pointer-events:none;
 }
 
 .teapot {
   height:160px;
-  animation: teapot 3s infinite alternate;
+  animation: teapot 5s infinite alternate;
 }
 
 @keyframes teapot {
