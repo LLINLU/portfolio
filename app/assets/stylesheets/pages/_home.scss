@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+section {
+  height: 100vh;
+  position:relative;
+}
+
+section:nth-child(1){
+ background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+}
+
+section:nth-child(2) {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+section:nth-child(3){
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+
+section:nth-child(4) {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.text {
+  position:absolute;
+  left:20%;
+  top:50%;
+}
