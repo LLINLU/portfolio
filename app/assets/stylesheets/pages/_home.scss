@@ -5,7 +5,9 @@ section {
 }
 
 section:nth-child(1){
- background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+ background-image:url(section1_bg.png);
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 section:nth-child(2) {
@@ -25,3 +27,6 @@ section:nth-child(4) {
   left:20%;
   top:50%;
 }
+
+
+
