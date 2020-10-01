@@ -3,26 +3,43 @@ section {
   height: 100vh;
   position:relative;
 
+  &:nth-of-type(1){
+    background-image:url(section1_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-}
+  &:nth-of-type(2){
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  }
 
-section:nth-child(1){
- background-image:url(section1_bg.png);
- background-repeat: no-repeat;
- background-size: cover;
-}
+  &:nth-of-type(3){
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  }
 
-section:nth-child(2) {
-  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-}
-
-section:nth-child(3){
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-}
-
-section:nth-child(4) {
+  &:nth-of-type(4) {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  }
+
 }
+
+// section:nth-child(1){
+//  background-image:url(section1_bg.png);
+//  background-repeat: no-repeat;
+//  background-size: cover;
+// }
+
+// section:nth-child(2) {
+//   background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+// }
+
+// section:nth-child(3){
+//   background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+// }
+
+// section:nth-child(4) {
+//   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+// }
 
 .text {
   position:absolute;
