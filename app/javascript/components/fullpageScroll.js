@@ -33,10 +33,10 @@ const clickScroll = () => {
   const button2 = document.getElementsByClassName("button2");
   const button3 = document.getElementsByClassName("button3");
   console.log(button);
-  button[0].addEventListener("click", () => {
-  event.preventDefault();
-  smoothScroll("about_me", 1000);
-});
+//   button[0].addEventListener("click", () => {
+//   event.preventDefault();
+//   smoothScroll("about_me", 1000);
+// });
   button2[0].addEventListener("click", () => {
   event.preventDefault();
   smoothScroll("works", 1000);
