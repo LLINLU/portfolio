@@ -59,10 +59,13 @@ nav {
   ul {
     display:flex;
     justify-content:center;
+    height:3em;
+    background-color:gold;
   }
 
   li{
     margin-left:20px;
+    margin:auto  20px;
   }
 }
 
