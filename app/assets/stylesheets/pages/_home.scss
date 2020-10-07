@@ -57,11 +57,16 @@ section {
 
 nav {
   ul {
-      display:inline-flex;
-
+    display:flex;
+    justify-content:center;
   }
 
+  li{
+    margin-left:20px;
+  }
 }
+
+
 
 
 // .content {
