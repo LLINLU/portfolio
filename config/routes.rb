@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get '/contact', to: 'pages#contact'
   get '/works', to: 'pages#works'
   match '/about', to: 'pages#about', via: :get
 
