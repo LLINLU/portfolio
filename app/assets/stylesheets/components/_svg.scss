@@ -1,0 +1,27 @@
+
+#leaves_up_anim {
+  animation: leaves_up 3000ms ease-in-out infinite;
+  transform-origin: bottom right;
+  transform-box: fill-box;
+}
+@keyframes leaves_up {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+svg {
+  width:660px;
+}
+
+.girl_img {
+  text-align: right;
+}

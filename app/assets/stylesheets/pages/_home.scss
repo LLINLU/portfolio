@@ -1,9 +1,9 @@
 // Specific CSS for your home-page
 .hero {
-  background-image:url(section1_bg.png);
+  background-image: linear-gradient(to top, #F4E3EA 0%, #FAEAEE 509%, #F4ECF1 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  height:100vh;
+  height:auto;
 }
 
 section {
@@ -60,7 +60,7 @@ nav {
     display:flex;
     justify-content:center;
     height:3em;
-    background-color:gold;
+    background-color:transparent;
   }
 
   li{

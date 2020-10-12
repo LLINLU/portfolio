@@ -1,18 +1,3 @@
-<div class="preload">
-<%= image_tag "teapot.png", :class => "teapot" %>
-</div>
-
-<div class="content">
-  <div class="hero">
-  <nav>
-  <ul>
-      <li class = 'button1'><%= link_to 'about', about_path %></li>
-      <li class = 'button2'><%= link_to 'works', works_path %></li>
-      <li class = 'button2'><%= link_to 'services', services_path %></li>
-      <li class = 'button3'><a href="">contact</a></li>
-  </ul>
-  </nav>
-<div class="girl_img">
 <svg width="1130" height="800" viewBox="0 0 1130 800" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="girl" clip-path="url(#clip0)">
 <g id="background">
@@ -226,27 +211,3 @@
 </clipPath>
 </defs>
 </svg>
-</div>
-
-  </div>
-  <section id="about_me">
-    <div class="text">
-      <h3>Title2</h3>
-
-
-      <p>Subtitle for section 2</p>
-    </div>
-  </section>
-  <section id="works">
-    <div class="text">
-      <h3>Title3</h3>
-      <p>Subtitle for section 3</p>
-    </div>
-  </section >
-  <section id="contact">
-    <div class="text">
-      <h3>Title4</h3>
-      <p>Subtitle for section 4</p>
-    </div>
-  </section>
- </div>
