@@ -1,20 +1,20 @@
 
-#leaves_up_anim {
-  animation: leaves_up 3000ms ease-in-out infinite;
+#Vector_3, #Vector_4 {
+  animation: leaves_up 2000ms ease-in-out infinite;
   transform-origin: bottom right;
   transform-box: fill-box;
 }
 @keyframes leaves_up {
   0% {
-    transform: rotate(-5deg);
+    transform: rotate(-15deg);
   }
 
   50% {
-    transform: rotate(5deg);
+    transform: rotate(15deg);
   }
 
   100% {
-    transform: rotate(-5deg);
+    transform: rotate(-15deg);
   }
 }
 
@@ -26,4 +26,24 @@ svg {
 .girl_img {
   text-align: right;
   padding:5em 5em 5em 0;
+}
+
+#Vector_56 {
+  animation: leaves_low 3000ms ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes leaves_low {
+  0% {
+    transform: rotate(-30deg);
+  }
+
+  50% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(-30deg);
+  }
 }
