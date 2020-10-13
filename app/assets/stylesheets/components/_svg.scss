@@ -34,16 +34,49 @@ svg {
   transform-box: fill-box;
 }
 
+#Vector_57, #Vector_58{
+  animation: leaves_low_sm 2000ms ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
 @keyframes leaves_low {
   0% {
-    transform: rotate(-30deg);
+    transform: rotate(-20deg);
   }
 
   50% {
-    transform: rotate(30deg);
+    transform: rotate(10deg);
   }
 
   100% {
-    transform: rotate(-30deg);
+    transform: rotate(-20deg);
   }
+}
+
+
+@keyframes leaves_low_sm {
+   0% {
+    transform: rotate(-15deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-15deg);
+  }
+}
+
+
+#Vector_50 {
+  animation: square_right 3s ease infinite alternate;
+  transform-origin: left;
+  transform-box: fill-box;
+}
+
+@keyframes square_right {
+    0% { transform: scaleX(0.2);fill: #9A7DD5; }
+    100% { transform: scaleX(1.8) }
 }
