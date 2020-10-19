@@ -78,6 +78,16 @@ nav {
   font-size:2em;
 }
 
+.intro {
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  padding: 0 5em;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: auto;
+}
+
 
 
 
