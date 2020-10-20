@@ -37,10 +37,7 @@ const clickScroll = () => {
 //   event.preventDefault();
 //   smoothScroll("about_me", 1000);
 // });
-//   button2[0].addEventListener("click", () => {
-//   event.preventDefault();
-//   smoothScroll("works", 1000);
-// });
+// ` qw`
   button3[0].addEventListener("click", () => {
   event.preventDefault();
   smoothScroll("contact", 1000);
