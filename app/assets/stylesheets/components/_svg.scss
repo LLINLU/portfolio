@@ -92,3 +92,26 @@ svg {
     50% { transform: translateY(-30px) scale(1.1); }
     100% { transform: translateY(0);}
 }
+
+#Vector, #Vector_2 {
+
+  animation: change-background 8s ease infinite alternate;
+}
+
+@keyframes change-background {
+  0% {
+    fill: #6C63FF;
+    opacity:0.1;
+  }
+
+   50% {
+    fill: #D5D3F7;
+    opacity:0.3;
+  }
+
+  100% {
+    fill: #A487D8;
+     opacity:0.2;
+  }
+}
+
