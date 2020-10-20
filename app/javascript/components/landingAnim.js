@@ -11,12 +11,12 @@ const landingAnim = () => {
   )
   .fromTo(
     hero,
-    1.2,
-    {width: '95%'},
-    {width: '100%', ease: Power2.easeInOut },
+    5.2,
+    {width: '0px'},
+    {width: '660px', ease: Power2.easeInOut },
     "-=1.2"
   )
-  .fromTo(text, 0.5, {opacity: 0, x: 30}, {opacity: 1, x: 0},
+  .fromTo(text, 4.5, {opacity: 0, x: 30}, {opacity: 1, x: 0},
   "-=0.5"
   );
 }
