@@ -69,14 +69,20 @@ nav {
   }
 
   a{
-    color:#6F5E74;
+    color:#56495a;
   }
 }
 
-.about {
+.about, .small-text {
   font-family:'Ubuntu', sans-serif;
   font-size:2em;
+  color: #4e3c4e;
+  margin-right:1em;
 }
+
+.small-text{
+   font-size:0.8em;
+  }
 
 .intro {
   display:flex;
