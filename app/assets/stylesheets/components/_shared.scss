@@ -13,7 +13,15 @@ a:hover {
   text-decoration:none;
 }
 
-// body{
-//   height: 100vh;
-//   overflow: hidden;
-// }
+
+.cursor {
+  width:3rem;
+  height: 3rem;
+  border: 2px solid #FAE79B;
+  background-color: #FAE79B;
+  position: absolute;
+  border-radius: 50%;
+  opacity:0.8;
+  transform: translate(-50%,-50%);
+  pointer-events:none;
+}

@@ -29,7 +29,8 @@ import "bootstrap";
 // import { initSelect2 } from '../components/init_select2';
 import { preloader } from '../components/preloader';
 import { clickScroll} from '../components/fullpageScroll';
-import { landingAnim } from '../components/landingAnim'
+import { landingAnim } from '../components/landingAnim';
+import { mouseCursor,hoverChange } from '../components/mouseCursor';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -39,4 +40,6 @@ document.addEventListener('turbolinks:load', () => {
   clickScroll();
   // wheelScroll();
   landingAnim();
+  mouseCursor();
+  hoverChange();
 });

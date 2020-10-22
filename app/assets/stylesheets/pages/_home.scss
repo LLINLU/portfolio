@@ -56,7 +56,7 @@ section {
 }
 
 nav {
-  ul {
+  .nav-link {
     display:flex;
     justify-content:center;
     height:3em;
@@ -94,6 +94,15 @@ nav {
   margin: auto;
 }
 
+
+.link-grow {
+  transform: scale(2);
+  background:powderblue;
+  width:3rem;
+  height: 3rem;
+  position: absolute;
+  border-radius: 50%;
+}
 
 
 
