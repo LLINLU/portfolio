@@ -9,7 +9,7 @@ const mouseCursor = () => {
 
 const hoverChange = () => {
   let navLinks = document.querySelectorAll('.nav-link li');
-   let mouseCursor = document.querySelector('.cursor');
+  let mouseCursor = document.querySelector('.cursor');
   console.log(navLinks);
    navLinks.forEach(link => {
     console.log(link);
