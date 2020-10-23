@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height:auto;
+  z-index:-999;
 }
 
 section {
@@ -61,15 +62,20 @@ nav {
     justify-content:center;
     height:3em;
     background-color:transparent;
+    z-index:999;
   }
 
   li{
     margin-left:20px;
     margin:auto  20px;
+    z-index:999;
   }
 
   a{
     color:#56495a;
+    transition: all 0.5s ease-in-out;
+    transform-origin:100% 100%;
+    z-index:999;
   }
 }
 
@@ -100,8 +106,15 @@ nav {
   background:lavender;
   position: absolute;
   border-radius: 50%;
+  z-index:0;
 }
 
+.hovered-link {
+  color:white !important;
+  font-size:22px;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+}
 
 
 // .content {
