@@ -28,7 +28,7 @@ import "bootstrap";
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 import { preloader } from '../components/preloader';
-import { clickScroll} from '../components/fullpageScroll';
+// import { clickScroll} from '../components/fullpageScroll';
 import { landingAnim } from '../components/landingAnim';
 import { mouseCursor,hoverChange } from '../components/mouseCursor';
 
@@ -37,7 +37,7 @@ document.addEventListener('turbolinks:load', () => {
   // initSelect2();
   preloader();
 
-  clickScroll();
+  // clickScroll();
   // wheelScroll();
   landingAnim();
   mouseCursor();
