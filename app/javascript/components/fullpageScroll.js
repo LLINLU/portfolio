@@ -29,19 +29,13 @@ const ease = (t,b,c,d) => {
 
 
 const clickScroll = () => {
-  const button = document.getElementsByClassName("button1");
-  const button2 = document.getElementsByClassName("button2");
-  const button3 = document.getElementsByClassName("button3");
-  console.log(button);
-  button[0].addEventListener("click", () => {
-  event.preventDefault();
-  smoothScroll("about_me", 1000);
-});
-  button2[0].addEventListener("click", () => {
-  event.preventDefault();
-  smoothScroll("about_me", 1000);
-});
-
+  const button = document.querySelector('.link4');
+  if (button) {
+    button.addEventListener("click", () => {
+    event.preventDefault();
+    smoothScroll("contact", 1000);
+    });
+  }
 }
 
 // const wheelScroll = () => {
@@ -62,4 +56,4 @@ const clickScroll = () => {
 //   });
 // }
 
-// export { clickScroll};
+export { clickScroll};
