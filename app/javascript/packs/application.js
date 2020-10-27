@@ -30,7 +30,7 @@ import "bootstrap";
 import { preloader } from '../components/preloader';
 import { clickScroll} from '../components/fullpageScroll';
 import { landingAnim } from '../components/landingAnim';
-import { mouseCursor,hoverChange } from '../components/mouseCursor';
+import { mouseCursor,hoverChange, formChange } from '../components/mouseCursor';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -41,4 +41,5 @@ document.addEventListener('turbolinks:load', () => {
   landingAnim();
   mouseCursor();
   hoverChange();
+  formChange();
 });

@@ -10,12 +10,11 @@ const mouseCursor = () => {
 const hoverChange = () => {
   let navLinks = document.querySelectorAll('.nav-link li a');
   let mouseCursor = document.querySelector('.cursor');
-  console.log(navLinks);
-   navLinks.forEach(link => {
-    console.log(link);
+  navLinks.forEach(link => {
     link.addEventListener('mouseleave',() => {
       mouseCursor.classList.remove('link-grow');
       link.classList.remove('hovered-link');
+
     });
     link.addEventListener('mouseover',() => {
       mouseCursor.classList.add('link-grow');
@@ -24,7 +23,19 @@ const hoverChange = () => {
   });
 }
 
+const formChange = () => {
+  let saboten = document.querySelector('#Vector_60');
+  if(saboten){
+    saboten.addEventListener('mouseleave',() => {
+      saboten.classList.remove('translate');
+    });
+    saboten.addEventListener('mouseover',() => {
+      saboten.classList.add('translate');
+    });
+  }
+}
 
 
 
-export { mouseCursor, hoverChange }
+
+export { mouseCursor, hoverChange, formChange }
