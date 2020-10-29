@@ -10,6 +10,7 @@ const mouseCursor = () => {
 const hoverChange = () => {
   let navLinks = document.querySelectorAll('.nav-link li a');
   let mouseCursor = document.querySelector('.cursor');
+  let learnMore = document.querySelector('#learn-more');
   navLinks.forEach(link => {
     link.addEventListener('mouseleave',() => {
       mouseCursor.classList.remove('link-grow');
