@@ -22,6 +22,17 @@ const hoverChange = () => {
       link.classList.add('hovered-link');
     });
   });
+
+  learnMore.addEventListener('mouseleave',() => {
+      mouseCursor.classList.remove('link-grow');
+      // learnMore.classList.remove('hovered-link');
+
+    });
+   learnMore.addEventListener('mouseover',() => {
+      mouseCursor.classList.add('link-grow');
+      // learnMore.classList.add('hovered-link');
+
+    });
 }
 
 const formChange = () => {
