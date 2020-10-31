@@ -20,7 +20,6 @@ const landingAnim = () => {
   .fromTo(text, 4.5, {opacity: 0, x: 30}, {opacity: 1, x: 0},
   "-=0.5"
   );
-}
-}
+}}
 
 export { landingAnim }

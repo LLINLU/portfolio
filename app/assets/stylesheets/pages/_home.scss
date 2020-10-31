@@ -54,6 +54,9 @@ section {
   position:absolute;
   left:20%;
   top:50%;
+  opacity: 0;
+  transform: translateY(24px);
+  transition:0.5s all ease-in-out;
 }
 
 nav {
@@ -131,10 +134,19 @@ nav {
 }
 
 
+.button-link {
+  z-index:1000;
+}
+
 .translate {
   transform:translate3d(-2.7rem, 0, 1rem);
 }
 
+
+.intro-appear{
+  opacity:1;
+  transform: translateY(0px);
+}
 // .content {
 //   overflow-y: scroll;
 //   height: 100%;

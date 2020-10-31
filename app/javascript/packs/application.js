@@ -31,6 +31,7 @@ import { preloader } from '../components/preloader';
 import { clickScroll} from '../components/fullpageScroll';
 import { landingAnim } from '../components/landingAnim';
 import { mouseCursor,hoverChange, formChange } from '../components/mouseCursor';
+import { scrollApear } from '../components/scrollApear';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -42,4 +43,5 @@ document.addEventListener('turbolinks:load', () => {
   mouseCursor();
   hoverChange();
   formChange();
+  scrollApear();
 });
