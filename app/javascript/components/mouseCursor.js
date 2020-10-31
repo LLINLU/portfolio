@@ -24,13 +24,13 @@ const hoverChange = () => {
   });
 
   learnMore.addEventListener('mouseleave',() => {
-      mouseCursor.classList.remove('link-grow');
-      // learnMore.classList.remove('hovered-link');
+      mouseCursor.classList.remove('button-grow');
+      // learnMore.classList.remove('hovered-button');
 
     });
    learnMore.addEventListener('mouseover',() => {
-      mouseCursor.classList.add('link-grow');
-      // learnMore.classList.add('hovered-link');
+      mouseCursor.classList.add('button-grow');
+      // learnMore.classList.add('hovered-button');
 
     });
 }

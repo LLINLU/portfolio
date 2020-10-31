@@ -110,6 +110,19 @@ nav {
   z-index:0;
 }
 
+.button-grow{
+  transform: scale(2);
+  background:rgba(137,117,212,0.2);
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid white;
+
+}
+
+.hovered-button {
+  z-index:999;
+}
+
 .hovered-link {
   color:white !important;
   font-size:22px;
