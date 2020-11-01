@@ -9,6 +9,9 @@ const scrollApear = () => {
       console.log('yes')
       introText.classList.add('intro-appear');
     }
+    else if (introPosition >= screenPosition && true) {
+      introText.classList.remove('intro-appear');
+    }
   }
 
 window.addEventListener('scroll',scrollApear)
