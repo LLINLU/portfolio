@@ -74,11 +74,21 @@ nav {
     z-index:998;
   }
 
+  // a{
+  //   color:#56495a;
+  //   transition: all 0.5s ease-in-out;
+  //   transform-origin:100% 100%;
+  //   z-index:998;
+  // }
+
   a{
-    color:#56495a;
-    transition: all 0.5s ease-in-out;
-    transform-origin:100% 100%;
+    background: radial-gradient(circle at var(--x,40px) var(--y,-40px), white 20px, #56495a 20px);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    -webkit-text-fill-color: transparent;
     z-index:998;
+
   }
 }
 
