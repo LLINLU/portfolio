@@ -42,8 +42,9 @@ const linkChange =() => {
   navLinks.forEach(link => {
     let a = link.getBoundingClientRect();
     console.log(a);
+
     link.addEventListener('mouseover',(e)=>{
-      link.style.setProperty('--x',(e.clientX-a.left)+'px');
+      link.style.setProperty('--x',(e.clientX-a.left+5)+'px');
       link.style.setProperty('--y',(e.clientY-a.top)+'px');
 
     })

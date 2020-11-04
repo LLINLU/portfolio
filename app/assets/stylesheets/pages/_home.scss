@@ -82,7 +82,7 @@ nav {
   // }
 
   a{
-    background: radial-gradient(circle at var(--x,40px) var(--y,-40px), white 20px, #56495a 20px);
+    background: radial-gradient(circle at var(--x,-40px) var(--y,-40px), #7261C4 32px, #56495a 32px);
     background-clip: text;
     -webkit-background-clip: text;
     color:transparent;
@@ -116,7 +116,7 @@ nav {
 
 
 .link-grow {
-  transform: scale(2);
+  transform: scale(1.8);
   background:lavender;
   position: absolute;
   border-radius: 50%;
