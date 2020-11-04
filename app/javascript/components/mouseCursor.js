@@ -11,17 +11,17 @@ const hoverChange = () => {
   let navLinks = document.querySelectorAll('.nav-link li a');
   let mouseCursor = document.querySelector('.cursor');
   let learnMore = document.querySelector('#learn-more');
-  // navLinks.forEach(link => {
-  //   link.addEventListener('mouseleave',() => {
-  //     mouseCursor.classList.remove('link-grow');
-  //     link.classList.remove('hovered-link');
+  navLinks.forEach(link => {
+    link.addEventListener('mouseleave',() => {
+      mouseCursor.classList.remove('link-grow');
+      // link.classList.remove('hovered-link');
 
-  //   });
-  //   link.addEventListener('mouseover',() => {
-  //     mouseCursor.classList.add('link-grow');
-  //     link.classList.add('hovered-link');
-  //   });
-  // });
+    });
+    link.addEventListener('mouseover',() => {
+      mouseCursor.classList.add('link-grow');
+      // link.classList.add('hovered-link');
+    });
+  });
 
   learnMore.addEventListener('mouseleave',() => {
       mouseCursor.classList.remove('button-grow');
@@ -40,14 +40,19 @@ const linkChange =() => {
   let navLinks = document.querySelectorAll('.nav-link li a');
   let mouseCursor = document.querySelector('.cursor');
   navLinks.forEach(link => {
-    let a= link.getBoundingClientRect();
+    let a = link.getBoundingClientRect();
     console.log(a);
     link.addEventListener('mouseover',(e)=>{
+      link.style.setProperty('--x',(e.clientX-a.left)+'px');
+      link.style.setProperty('--y',(e.clientY-a.top)+'px');
 
-      // mouseCursor.classList.toggle('link-grow');
+    })
+    link.addEventListener('mouseleave',(e)=>{
       link.style.setProperty('--x',(e.clientX-a.top)+'px');
       link.style.setProperty('--y',(e.clientY-a.left)+'px');
-    })
+
+    });
+
   });
 }
 
