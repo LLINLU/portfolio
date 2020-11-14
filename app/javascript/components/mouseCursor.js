@@ -41,7 +41,7 @@ const linkChange =() => {
   let mouseCursor = document.querySelector('.cursor');
   navLinks.forEach(link => {
     let a = link.getBoundingClientRect();
-    console.log(a);
+    // console.log(a);
 
     link.addEventListener('mouseover',(e)=>{
       link.style.setProperty('--x',(e.clientX-a.left+5)+'px');
@@ -58,17 +58,19 @@ const linkChange =() => {
 }
 
 const formChange = () => {
-  let saboten = document.querySelector('#Vector_60');
-  if(saboten){
-    saboten.addEventListener('mouseleave',() => {
-      saboten.classList.remove('translate');
-    });
-    saboten.addEventListener('mouseover',() => {
-      saboten.classList.add('translate');
-    });
-  }
-}
+  let about = document.querySelector('span');
+  let mouseCursor = document.querySelector('.cursor');
+  if(about){
+      let a = about.getBoundingClientRect();
+      console.log(a);
 
+      document.body.onmousemove = function(e) {
+      about.style.setProperty('--x',(e.clientX-a.left+17)+'px');
+      about.style.setProperty('--y',(e.clientY-a.top+55)+'px');
+    }
+  }
+
+}
 
 
 

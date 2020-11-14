@@ -99,10 +99,17 @@ nav {
   color: #4e3c4e;
   margin-right:1em;
   z-index:3;
+
+
 }
 
 .small-text{
-   font-size:0.8em;
+  font-size:0.8em;
+  background: radial-gradient(circle at var(--x,-40px) var(--y,-40px), #9A7DD5 12px, #4e3c4e 12px);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;
+  -webkit-text-fill-color: transparent;
   }
 
 .intro {
