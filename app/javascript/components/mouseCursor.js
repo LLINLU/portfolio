@@ -65,8 +65,8 @@ const formChange = () => {
       console.log(a);
 
       document.body.onmousemove = function(e) {
-      about.style.setProperty('--x',(e.clientX-a.left+17)+'px');
-      about.style.setProperty('--y',(e.clientY-a.top+55)+'px');
+      about.style.setProperty('--x',(e.clientX-a.left+28)+'px');
+      about.style.setProperty('--y',(e.clientY-a.top+84)+'px');
     }
   }
 
