@@ -32,12 +32,11 @@ import { clickScroll} from '../components/fullpageScroll';
 import { landingAnim } from '../components/landingAnim';
 import { mouseCursor,hoverChange, formChange, linkChange } from '../components/mouseCursor';
 import { scrollApear } from '../components/scrollApear';
-
+import { horizontalSlide } from '../components/horizontalSlide';
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   preloader();
-
   clickScroll();
   landingAnim();
   mouseCursor();
@@ -45,4 +44,5 @@ document.addEventListener('turbolinks:load', () => {
   linkChange();
   formChange();
   scrollApear();
+  horizontalSlide();
 });

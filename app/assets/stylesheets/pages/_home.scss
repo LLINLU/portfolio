@@ -58,6 +58,7 @@ section {
   opacity: 0;
   transform: translateY(24px);
   transition:0.5s all ease-in-out;
+  z-index:998;
 }
 
 nav {
@@ -170,3 +171,28 @@ nav {
 //   height: 100%;
 //   scroll-snap-type: y mandatory;
 // }
+
+
+.wrapper{
+  width: 400vw;
+  height: 100vh;
+  overflow: hidden;
+  perspective: 1000;
+  -webkit-perspective: 1000;
+}
+
+$panelcount:4;
+.slide {
+  & {
+    height: 100%;
+    width: calc( 100% / #{$panelcount} );
+    float: left;
+    }
+  }
+
+
+  .slides {
+    width: 100%; /* to contain 4 panels, each with 100% of window width */
+    height: 100%;
+  }
+
