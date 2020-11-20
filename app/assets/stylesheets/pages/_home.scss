@@ -225,6 +225,25 @@ $panelcount:4;
 
 
 
- .plane img {
+.plane img {
   display:none;
  }
+
+
+.grain {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 90vh;
+  z-index:1;
+  animation: rotate 15s linear infinite;
+  opacity:0.4;
+ }
+
+
+@keyframes rotate {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
