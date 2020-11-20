@@ -47,7 +47,7 @@ const rippleEffect = () => {
   plane && plane.onReady(function() {
     // set a field of view of 35 to exagerate perspective
     // we could have done  it directly in the initial params
-    plane.setPerspective(35);
+    plane.setPerspective(25);
 
     // listen our mouse/touch events on the whole document
     // we will pass the plane as second argument of our function
