@@ -33,6 +33,7 @@ import { landingAnim } from '../components/landingAnim';
 import { mouseCursor,hoverChange, formChange, linkChange } from '../components/mouseCursor';
 import { scrollApear } from '../components/scrollApear';
 import { horizontalSlide } from '../components/horizontalSlide';
+import { rippleEffect } from '../components/rippleEffect';
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
@@ -45,4 +46,7 @@ document.addEventListener('turbolinks:load', () => {
   formChange();
   scrollApear();
   horizontalSlide();
+  rippleEffect();
+
+
 });
