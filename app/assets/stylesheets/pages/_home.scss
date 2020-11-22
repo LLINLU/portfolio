@@ -257,15 +257,15 @@ $panelcount:4;
   background:#F9E67E;
   background-color:#F9E67E;
   border-radius:50%;
-  height:90px;
-  width:90px;
+  height:98px;
+  width:112px;
 }
 
 .circle::before {
   content:'';
   position:absolute;
-  top:0;
-  right:-5px;
+  bottom:-8px;
+  right:-8px;
   background-color:#F8E9C7;
   height:124px;
   width:140px;
