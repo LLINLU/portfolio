@@ -247,3 +247,16 @@ $panelcount:4;
   100% { transform: rotate(-360deg); }
 }
 
+
+
+.circle{
+  position:relative;
+  top:10vh;
+  left:10vh;
+  transform:translate(50%,50%);
+  background:#F9E67E;
+  background-color:#F9E67E;
+  border-radius:50%;
+  height:90px;
+  width:90px;
+}
