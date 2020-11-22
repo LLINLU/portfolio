@@ -251,7 +251,7 @@ $panelcount:4;
 
 .circle{
   position:relative;
-  top:10vh;
+  top:0;
   left:10vh;
   transform:translate(50%,50%);
   background:#F9E67E;
@@ -259,4 +259,17 @@ $panelcount:4;
   border-radius:50%;
   height:90px;
   width:90px;
+}
+
+.circle::before {
+  content:'';
+  position:absolute;
+  top:0;
+  right:-5px;
+  background-color:#F8E9C7;
+  height:124px;
+  width:140px;
+  border-radius:50%;
+  opacity:0.5;
+
 }
