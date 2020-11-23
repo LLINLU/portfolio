@@ -259,6 +259,8 @@ $panelcount:4;
   border-radius:50%;
   height:98px;
   width:112px;
+  -webkit-animation: rotateOnY 4s infinite linear;
+  animation: rotateOnY 4s infinite linear;
 }
 
 .circle::before {
@@ -270,6 +272,38 @@ $panelcount:4;
   height:124px;
   width:140px;
   border-radius:50%;
-  opacity:0.5;
-
+  opacity:0.6;
 }
+
+.circle::after {
+  content:'';
+  position:absolute;
+  top:68px;
+  left:-12px;
+  background-color:#E5D2E7;
+  height:16px;
+  width:16px;
+  border-radius:50%;
+  opacity:0.9;
+}
+
+.circle-container {
+  width: 250px;
+  height: 250px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-perspective: 240px;
+          perspective: 240px;
+}
+
+
+
+
+@keyframes rotateOnY {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+  }
+
+
