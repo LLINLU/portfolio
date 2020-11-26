@@ -302,8 +302,8 @@ $panelcount:4;
 
 
 @keyframes rotateOnY {
-  0%   { transform: rotateY(0deg); }
-  100% { transform: rotateY(360deg); }
+  0%   { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(360deg); }
   }
 
 
