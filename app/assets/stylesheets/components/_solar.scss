@@ -2,18 +2,15 @@
   z-index: 1;
   position: absolute;
   overflow: hidden;
-  width: 100%;
-  height: 100%;
-  background-position: center 40%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 180%;
+  height: 80%;
 }
 
 #galaxy {
   position: relative;
   width: 100%;
   height: 100%;
-  transform: rotateX(75deg);
+  transform: rotateX(75deg) rotateY(-30deg);
   transform-style: preserve-3d;
 }
 
@@ -57,7 +54,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 5px solid rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   animation-name: orbit;
   animation-iteration-count: infinite;
@@ -111,27 +108,27 @@ font-size: 2em;
 
 @keyframes shadow-mercury {
   0% {
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 20px rgba(137, 117, 212, 0.2);
     /* TOP */ }
 
   25% {
-    box-shadow: inset 16px 0 8px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 16px 0 8px rgba(137, 117, 212, 0.2);
     /* LEFT */ }
 
   50% {
-    box-shadow: inset 40px -20px 16px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 40px -20px 16px rgba(137, 117, 212, 0.2);
     /* BOTTOM */ }
 
   50.01% {
-    box-shadow: inset -40px -20px 16px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -40px -20px 16px rgba(137, 117, 212, 0.2);
     /* BOTTOM */ }
 
   75% {
-    box-shadow: inset -16px 0 8px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -16px 0 8px rgba(137, 117, 212, 0.2);
     /* RIGHT */ }
 
   100% {
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 20px rgba(137, 117, 212, 0.2);
     /* TOP */ }
 }
 
