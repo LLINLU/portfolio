@@ -332,3 +332,22 @@ $panelcount:4;
     top: 50%;
     left: 30%;
 }
+
+.project-number {
+  position:absolute;
+  top:30%;
+  left:20%;
+  font-family: 'Dosis', sans-serif;
+  font-size:3em;
+  color:white;
+  opacity:0.6;
+}
+
+.straight-line {
+  position:absolute;
+  top:30%;
+  left:20%;
+  width:200px;
+  border-top:3px solid #fff;
+  opacity:0.6;
+}
