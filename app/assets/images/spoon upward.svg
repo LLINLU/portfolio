@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="138px" viewBox="0 0 59 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="66.9310582%" x2="100%" y2="26.8612027%" id="linearGradient-1">
+            <stop stop-color="#EBAF9A" offset="0%"></stop>
+            <stop stop-color="#F7B500" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="profile-website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.805710565">
+        <g id="Group" transform="translate(23.000000, 69.000000) rotate(18.000000) translate(-23.000000, -69.000000) translate(3.000000, 0.000000)" stroke-width="6">
+            <path d="M22.1638756,0 C14.4079149,0 9.18077178,10.2826616 5.50491211,17.2816824 C1.82905245,24.2807032 -2.36345271,30.1375148 1.60595382,40.3759473 C5.57536035,50.6143799 14.104236,55 20.2914735,55 C26.4787111,55 34.0936614,49.5987208 37.6626464,42.5035973 C41.2316314,35.4084738 40.2913401,25.8901522 37.6626464,18.978125 C35.0339527,12.0660977 29.9198363,0 22.1638756,0 Z" id="Path-3" stroke="#F7B500"></path>
+            <line x1="22.627703" y1="57.2665459" x2="20.4585312" y2="137.803496" id="Path-4" stroke="url(#linearGradient-1)" stroke-linecap="round" transform="translate(21.543117, 97.535021) rotate(-1.542823) translate(-21.543117, -97.535021) "></line>
+        </g>
+    </g>
+</svg>
