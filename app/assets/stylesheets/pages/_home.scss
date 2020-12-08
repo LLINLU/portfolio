@@ -427,9 +427,13 @@ $panelcount:4;
 .description {
   position:absolute;
   top:65%;
-  left:20%;
+  left:30%;
   color:#fff;
+  font-family: 'Ubuntu', sans-serif;
 
+& .description-title {
+   font-size:36px;
+}
 }
 
 
