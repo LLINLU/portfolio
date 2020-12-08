@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248px" height="74px" viewBox="0 0 248 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="JCHEadA, HeadLineA" font-size="78" font-weight="700" letter-spacing="5.85" fill="#FFFFFF" fill-opacity="0.787123033">
+            <tspan x="0" y="145">CookPal</tspan>
+        </text>
+        <filter x="-2.6%" y="-196.0%" width="105.2%" height="332.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.879359149   0 0 0 0 0.879359149   0 0 0 0 0.879359149  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="profile-website-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.787123033">
+        <g id="Group-12" transform="translate(0.000000, -25.000000)">
+            <g id="CookPal" fill="#FFFFFF">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <text id="CookPal" font-family="HanziPenTC-W5, HanziPen TC" font-size="80" font-weight="bold" fill="#F7B500">
+                <tspan x="0" y="85">CookPal</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
