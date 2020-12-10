@@ -11,7 +11,7 @@ const hoverChange = () => {
   let navLinks = document.querySelectorAll('.nav-link li a');
   let mouseCursor = document.querySelector('.cursor');
   let learnMore = document.querySelector('#learn-more');
-  let title = document.querySelector('.Project-headline')
+  let headline = document.querySelector('.Project-headline')
   navLinks.forEach(link => {
     link.addEventListener('mouseleave',() => {
       mouseCursor.classList.remove('link-grow');
@@ -34,6 +34,17 @@ const hoverChange = () => {
       // learnMore.classList.add('hovered-button');
 
     });
+   headline.addEventListener('mouseleave',() => {
+      mouseCursor.classList.remove('button-grow');
+      // learnMore.classList.remove('hovered-button');
+
+    });
+   headline.addEventListener('mouseover',() => {
+      mouseCursor.classList.add('button-grow');
+      // learnMore.classList.add('hovered-button');
+
+    });
+
 }
 
 
