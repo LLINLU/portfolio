@@ -36,12 +36,14 @@ const hoverChange = () => {
     });
    headline.addEventListener('mouseleave',() => {
       mouseCursor.classList.remove('button-grow');
+      console.log('hello');
       // learnMore.classList.remove('hovered-button');
 
     });
    headline.addEventListener('mouseover',() => {
       mouseCursor.classList.add('button-grow');
       // learnMore.classList.add('hovered-button');
+       console.log('hello');
 
     });
 
