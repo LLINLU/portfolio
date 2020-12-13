@@ -282,14 +282,21 @@
     <div>
       <div class ="project-number">01</div>
       <!-- <h3 class = "project-title">COOKPAL</h3> -->
-      <span class = "spoon"></span><%= image_tag "cookpal-text.png", :class => "Project-headline" %>
+      <span class = "spoon"></span>
+      <%= link_to works_cookpal_path, :class => "Project-headline", target: "_blank" do %>
+      <%= image_tag "cookpal-text.png", :class => "Project-headline" %>
+      <% end %>
       <div class = "straight-line"></div>
       <div class="description">
         <div class ="description-title">Mobile App Design</div>
         <div>Product Thinking</div>
         <div>Personal Project</div>
       </div>
+
       <%= image_tag "homepage01.svg", :class => "project-image" %>
+
+
+
     </div>
   </section >
   <section class="slide">
