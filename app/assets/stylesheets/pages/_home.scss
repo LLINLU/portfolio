@@ -452,4 +452,7 @@ $panelcount:4;
   display: none;
 }
 
+.Project-headline:hover ~ .project-image {
+    display: block;
+}
 
