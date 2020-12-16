@@ -28,7 +28,7 @@ section {
   }
 
   &:nth-of-type(3) {
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-image: linear-gradient(to right, #fbfcdb 0%, #ffc65a 100%);
   }
 
 }
@@ -451,6 +451,7 @@ $panelcount:4;
   right: 10%;
   top: 20%;
   display: none;
+  transition: all 4s ease-in-out;
 }
 
 .Project-headline:hover ~ .project-image {
