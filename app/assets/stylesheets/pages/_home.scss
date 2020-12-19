@@ -434,6 +434,9 @@ $panelcount:4;
 & .description-title {
    font-size:36px;
 }
+& .project-year{
+  font-size:24px;
+}
 }
 
 
@@ -458,3 +461,10 @@ $panelcount:4;
     display: block;
 }
 
+.project-details {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items: center;
+  width:380px;
+}
