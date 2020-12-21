@@ -322,11 +322,17 @@ $panelcount:4;
 
 .project-title {
   font-family:'Ubuntu', sans-serif;
+  font-size:30px;
   position: absolute;
     top: 30%;
     left: 30%;
 }
-
+.project-year {
+  font-family:'Ubuntu', sans-serif;
+  position: absolute;
+    top: 13%;
+    right: -20%;
+}
 .Project-headline, .spoon {
   position: absolute;
     top: 50%;
@@ -435,7 +441,7 @@ $panelcount:4;
    font-size:36px;
 }
 & .project-year{
-  font-size:24px;
+  font-size:22px;
 }
 }
 
@@ -455,11 +461,13 @@ $panelcount:4;
   top: 20%;
   display: none;
   transition: all 4s ease-in-out;
+  z-index:10000;
 }
 
 .Project-headline:hover ~ .project-image {
     display: block;
 }
+
 
 .project-details {
   display:flex;
@@ -469,13 +477,52 @@ $panelcount:4;
   width:380px;
 }
 
+
+
 .bubble {
   position:relative;
   right:10%;
+  animation:size-change 6s ease-in-out infinite;
+  animation-direction:alternate;
+}
+
+@keyframes size-change {
+  0% {
+    transform:scale(1.2);
+  }
+
+  50% {
+    transform:scale(1);
+  }
+
+  100% {
+    transform:scale(0.7);
+  }
 }
 
 .cheese {
   width:300px;
   position:absolute;
   right:10px;
+  top:70%;
+  animation:rotate 6s ease-in-out infinite;
+  animation-direction:alternate;
+}
+
+@keyframes rotate {
+   0% {
+    transform: rotate(-15deg) scale(0.8);
+  }
+
+  50% {
+    transform: rotate(15deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(-15deg) scale(0.9);
+  }
+}
+
+.cheese ~ .project-image {
+    display: block;
 }
