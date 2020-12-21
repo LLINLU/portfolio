@@ -450,7 +450,25 @@ $panelcount:4;
 .Project-headline {
   z-index:10000;
   transition: all 1.5s ease-in-out;
+  animation: pop 6s ease-in-out infinite;
+  animation-direction:alternate;
 }
+
+@keyframes pop{
+   0% {
+    transform: rotate(-3deg) scale(1.05);
+  }
+
+  50% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(-3deg) scale(0.95);
+  }
+}
+
+
 
 
 .project-image {
@@ -526,3 +544,5 @@ $panelcount:4;
 .cheese ~ .project-image {
     display: block;
 }
+
+
