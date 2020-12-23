@@ -469,9 +469,15 @@ $panelcount:4;
 }
 
 
-
+.project-image-group {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
 
 .project-image {
+  position:absolute;
+  left:0;
   width: 400px;
   opacity: 0.9;
   position: absolute;
@@ -482,7 +488,7 @@ $panelcount:4;
   z-index:10000;
 }
 
-.Project-headline:hover ~ .project-image {
+.Project-headline:hover ~ .project-image-group {
     display: block;
 }
 
@@ -541,7 +547,7 @@ $panelcount:4;
   }
 }
 
-.cheese ~ .project-image {
+.cheese:hover ~ .project-image {
     display: block;
 }
 
