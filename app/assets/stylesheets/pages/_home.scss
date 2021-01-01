@@ -28,7 +28,7 @@ section {
   }
 
   &:nth-of-type(3) {
-  background-image: linear-gradient(to right, #fbfcdb 0%, #ffc65a 100%);
+  background-image: linear-gradient(to right, #fbfcdb 0%, #0466da4d 100%);
   }
 
 }
@@ -550,4 +550,9 @@ $panelcount:4;
     display: block;
 }
 
-
+.simplicruit_logo {
+  position:absolute;
+    top: 30%;
+    left: 26%;
+    height: 120px;
+  }
