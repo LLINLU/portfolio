@@ -551,11 +551,28 @@ $panelcount:4;
 }
 
 .simplicruit_logo {
-  position:absolute;
+    position:absolute;
     top: 30%;
     left: 26%;
     height: 120px;
+    animation:text_pop 6s ease-in-out infinite;
+    animation-direction:alternate;
+}
+
+@keyframes text_pop{
+   0% {
+    transform: rotate(0deg) scale(0.9);
   }
+
+  50% {
+    transform: rotate(1deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(-1deg) scale(0.95);
+  }
+}
+
 
   .simplicruit_num {
     color: #adcdd8;
@@ -570,3 +587,5 @@ $panelcount:4;
   .description-title:nth-of-type(2) {
     color: #167a9c73;
   }
+
+
