@@ -61,6 +61,7 @@ section {
   z-index:998;
 }
 
+
 nav {
   .nav-link {
     display:flex;
@@ -592,3 +593,15 @@ $panelcount:4;
 
   }
 
+
+ .simplicruit_num {
+  opacity:0;
+  transform: translateX(32px);
+  transition:0.5s all ease-in-out;
+  z-index:998;
+}
+
+.num-appear {
+  opacity:0;
+  transform: translateX(0px);
+}
