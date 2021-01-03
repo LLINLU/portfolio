@@ -34,6 +34,7 @@ import { mouseCursor,hoverChange, formChange, linkChange } from '../components/m
 import { scrollApear } from '../components/scrollApear';
 import { horizontalSlide } from '../components/horizontalSlide';
 import { rippleEffect } from '../components/rippleEffect';
+import { slideAppear } from '../components/slideAppear';
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
@@ -47,6 +48,6 @@ document.addEventListener('turbolinks:load', () => {
   scrollApear();
   horizontalSlide();
   rippleEffect();
-
+  slideAppear();
 
 });
