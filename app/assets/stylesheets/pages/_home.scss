@@ -584,6 +584,7 @@ $panelcount:4;
   }
 
 
+
   .simplicruit_line {
     border-top:3px solid #adcdd8;
   }
@@ -604,6 +605,13 @@ $panelcount:4;
   z-index:998;
 }
 
+.cook_num {
+opacity:0.1;
+ transform: translateX(32px);
+  transition:0.5s all ease-in-out;
+  z-index:998;
+}
+
 .num-appear {
   opacity:1;
   transform: translateX(0px);
@@ -614,4 +622,11 @@ $panelcount:4;
   position:absolute;
   top:36%;
   right:1%;
+}
+
+
+.simplicruit-des {
+  position: absolute;
+  top: 55%;
+  left: 30%;
 }
