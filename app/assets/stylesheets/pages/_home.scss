@@ -565,15 +565,15 @@ $panelcount:4;
 
 @keyframes text_pop{
    0% {
-    transform: rotate(0deg) scale(0.9);
+    transform:  scale(0.9);
   }
 
   50% {
-    transform: rotate(1deg) scale(1);
+    transform: translateX(12px) scale(1);
   }
 
   100% {
-    transform: rotate(-1deg) scale(0.95);
+    transform: translateX(-12px) scale(0.95);
   }
 }
 
@@ -599,7 +599,7 @@ $panelcount:4;
 
 
  .simplicruit_num {
-  opacity:0;
+  opacity:0.1;
   transform: translateX(32px);
   transition:0.5s all ease-in-out;
   z-index:998;
