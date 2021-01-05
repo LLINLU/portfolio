@@ -336,9 +336,29 @@
     </div>
   </section>
   <section class="slide">
-    <div class="text2">
-      <h3>Project4</h3>
-      <p>Subtitle for section 3</p>
+    <div>
+      <div class ="simplicruit_num project-number js-number">02</div>
+      <!-- <h3 class = "project-title">COOKPAL</h3> -->
+      <!-- <span class = "spoon"></span> -->
+      <div class="animation-container">
+      <%= link_to works_simplicruit_path, :class => "simplicruit_logo" do %>
+      <%= image_tag "logosvg.svg", :class => "simplicruit_logo" %>
+      <% end %>
+      </div>
+      <div class = "simplicruit_line straight-line"></div>
+      <div class="description simplicruit-des">
+        <div class="project-details">
+        <div class ="description-title" style ="color: #57c0e473;">Web Application Design</div>
+        <div class = "project-year" style="color: #57c0e473;">2020</div>
+        </div>
+        <div style="color: #97d2e6;">Ruby on Rails</div>
+        <div style="color: #97d2e6;">Team Project</div>
+      </div>
+        <%= image_tag "homepage.jpg", :class => "simplicruit-image" %>
+
+      <%= link_to works_simplicruit_path, :class => "bubble" do %>
+      <%= image_tag "blob.svg", :class => "blob" %>
+      <% end %>
     </div>
   </section>
   </div>
