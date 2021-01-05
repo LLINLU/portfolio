@@ -30,6 +30,9 @@ section {
   &:nth-of-type(3) {
   background-image: linear-gradient(to right, #fbfcdb 0%, #0466da4d 100%);
   }
+  &:nth-of-type(4) {
+  background-image: linear-gradient(to right, #0466da4d 0%, #e3eeff 100%);
+  }
 
 }
 
@@ -604,4 +607,11 @@ $panelcount:4;
 .num-appear {
   opacity:1;
   transform: translateX(0px);
+}
+
+.simplicruit-image {
+  width:400px;
+  position:absolute;
+  top:36%;
+  right:10%;
 }
