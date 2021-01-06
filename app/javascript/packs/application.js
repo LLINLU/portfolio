@@ -35,6 +35,7 @@ import { scrollApear } from '../components/scrollApear';
 import { horizontalSlide } from '../components/horizontalSlide';
 import { rippleEffect } from '../components/rippleEffect';
 import { slideAppear } from '../components/slideAppear';
+import { morphBlobs } from '../components/morph';
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
@@ -49,5 +50,6 @@ document.addEventListener('turbolinks:load', () => {
   horizontalSlide();
   rippleEffect();
   slideAppear();
+  morphBlobs();
 
 });
