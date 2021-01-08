@@ -513,13 +513,12 @@ $panelcount:4;
   animation-direction:alternate;
 }
 
-.blob {
-  position:relative;
-  right:2%;
+#blob {
+  position:absolute;
+  right:0%;
   width:400px;
-
-
 }
+
 
 @keyframes size-change {
   0% {
@@ -656,3 +655,12 @@ opacity:0.1;
   right:0%;
     z-index: 9999;
 }
+
+.blob {
+ height:490px;
+ position:absolute;
+ right:-14%;
+ top:1%;
+ z-index:9998;
+}
+
