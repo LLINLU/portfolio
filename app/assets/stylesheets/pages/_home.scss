@@ -627,9 +627,18 @@ opacity:0.1;
 .simplicruit-image {
   width:400px;
   position:absolute;
+  top:0;
+  right:0;
+  z-index:10000;
+}
+
+.simplicruit-image-group {
+  width:400px;
+  position:absolute;
   top:36%;
   right:1%;
   z-index:10000;
+
 }
 
 
