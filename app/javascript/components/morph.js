@@ -12,6 +12,12 @@ let tween2 = KUTE.fromTo('#blob3', {path: '#blob3' }, { path: '#blob1' }, // to 
    { // options
       easing: 'easingCubicInOut',
       yoyo: true, repeat: 1100, duration: 3500 }).start();
+
+let tween3 = KUTE.fromTo('#blob4', {path: '#blob4' }, { path: '#blob5' }, // to shape
+   { // options
+      easing: 'easingCubicInOut',
+      yoyo: true, repeat: 1100, duration: 3500 }).start();
 }
+
 
 export { morphBlobs};
