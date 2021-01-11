@@ -4,10 +4,10 @@ const horizontalSlide = () => {
   var controller = new ScrollMagic.Controller();
   var horizontalSlide = new TimelineMax()
   // animate panels
-  .to("#js-slideContainer", 1,   {x: "-20%"})
+  .to("#js-slideContainer", 2,   {x: "-20%"})
   .to("#js-slideContainer", 1,   {x: "-40%"})
   .to("#js-slideContainer", 1,   {x: "-60%"})
-  .to("#js-slideContainer", 1,   {x: "-70%"})
+  .to("#js-slideContainer", 1,   {x: "-75%"})
 
 
   // create scene to pin and link animation
