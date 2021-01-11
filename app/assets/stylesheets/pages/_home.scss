@@ -191,6 +191,7 @@ $panelcount:4;
     height: 100%;
     width: calc( 100% / #{$panelcount} );
     float: left;
+
     }
   }
 
@@ -198,6 +199,7 @@ $panelcount:4;
   .slides {
     width: 100%; /* to contain 4 panels, each with 100% of window width */
     height: 100%;
+    overflow:hidden;
   }
 
 
