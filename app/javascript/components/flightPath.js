@@ -20,4 +20,9 @@ tween.add(
   })
 );
 }
+
+const controller = new ScrollMagic.Controller();
+const scene = new ScrollMagic.Scene({
+
+});
 export { flightPath };
